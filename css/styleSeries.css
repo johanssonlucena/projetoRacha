@@ -55,11 +55,11 @@
 .equipe-container {
     display: flex;
     justify-content: center;
-    gap: 50px;
+    gap: 20px;
 }
 
 .equipe {
-    width: 400px;
+    width: 300px;
     padding: 15px;
     border-radius: 5px;
     text-align: center;
