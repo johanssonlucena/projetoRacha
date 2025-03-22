@@ -94,3 +94,20 @@ h2 {
     text-align: center;
     color: #0056b3;
 }
+
+
+
+
+  
+  /* Responsivo: Ajusta para telas menores */
+@media (max-width: 600px) {
+    nav ul {
+    flex-direction: column; /* Empilha os itens */
+    align-items: center; /* Centraliza no mobile */
+    }
+  
+nav ul li {
+    width: 100%; /* Faz os itens ocuparem a largura toda */
+    text-align: center;
+    }
+}
