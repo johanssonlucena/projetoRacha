@@ -37,4 +37,36 @@ const series = [
         ]
     },
 
+    {
+        numero: 2,
+        vencedor: "nenhum",
+        equipes: {
+            amarelo: {
+                capitao: "Rondinelly",
+                vitorias: 0,
+                empates: 0,
+                derrotas: 1,
+                golsMarcados: 3,
+                golsSofridos: 6,
+                jogadores: ["Rondinelly", "Ranny", "Rodolfo", "Gaspar", "Ademir", "Marquinhos",  "Ezequiel",
+                    "Adoniran", "Lindomar", "Zé", "Ricardo", "Kerles", "Amâncio",  "Julian", "Rudy", "Gya",
+                    "Diego", "Michelly", "Bruno", "Preto", "Augustinho", "Eder"]
+            },
+            azul: {
+                capitao: "Gerson",
+                vitorias: 1,
+                empates: 0,
+                derrotas: 0,
+                golsMarcados: 6,
+                golsSofridos: 3,
+                jogadores: ["Gerson", "Alysson", "Johansson", "Eron", "Anderson",  "Motta", "Júnior Piscina",
+                    "Afonso", "Roquelan", "Rodrigo", "Emerson", "Índio", "Raiff", "Joalisson", "Tau", "Madson",
+                    "Jones", "Wellington", "Oliveira", "Robério", "Hítalo", "Júnior Guarani"]
+            }
+        },
+        jogos: [
+            { amarelo: 3, azul: 6 }
+        ]
+    }
+
 ];

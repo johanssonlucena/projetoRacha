@@ -9,12 +9,15 @@ document.addEventListener('DOMContentLoaded', function () {
         serieHeader.classList.add('serie-header');
         serieHeader.innerHTML = `Série ${serie.numero}`;
 
-        const capitaoVencedor = serie.equipes[serie.vencedor.toLowerCase()].capitao;
-        const capitaoVencedorDiv = document.createElement('p');
-        capitaoVencedorDiv.classList.add('capitao-vencedor');
-        capitaoVencedorDiv.textContent = `🏆 Capitão vencedor: ${capitaoVencedor} (Time ${serie.vencedor})`;
-        
-        serieHeader.appendChild(capitaoVencedorDiv);
+        if (serie.vencedor.toLowerCase() !== "nenhum") {
+            const capitaoVencedor = serie.equipes[serie.vencedor.toLowerCase()].capitao;
+            const capitaoVencedorDiv = document.createElement('p');
+            capitaoVencedorDiv.classList.add('capitao-vencedor');
+            capitaoVencedorDiv.textContent = `🏆 Capitão vencedor: ${capitaoVencedor} (Time ${serie.vencedor})`;
+
+            serieHeader.appendChild(capitaoVencedorDiv);
+        }
+
         serieDiv.appendChild(serieHeader);
 
         const equipeContainer = document.createElement('div');
