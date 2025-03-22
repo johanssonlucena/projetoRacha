@@ -28,8 +28,8 @@ document.addEventListener('DOMContentLoaded', function () {
             equipeDiv.classList.add('equipe', cor);
 
             equipeDiv.innerHTML = `
-                <h2>Time - ${cor.charAt(0).toUpperCase() + cor.slice(1)}</h2>
-                <h3><u><strong>Capitão:</strong> ${serie.equipes[cor].capitao}</u></h3>
+                <h4>Time - ${cor.charAt(0).toUpperCase() + cor.slice(1)}</h4>
+                <h5><u><strong>Capitão:</strong> ${serie.equipes[cor].capitao}</u></h5>
                 <p class="stats"><strong>Vitórias:</strong> ${serie.equipes[cor].vitorias}</p>
                 <p class="stats"><strong>Empates:</strong> ${serie.equipes[cor].empates}</p>
                 <p class="stats"><strong>Derrotas:</strong> ${serie.equipes[cor].derrotas}</p>
@@ -62,11 +62,11 @@ document.addEventListener('DOMContentLoaded', function () {
         });
 
         const placaresDiv = document.createElement('div');
-        placaresDiv.classList.add('placares-container'); // Classe para estilização
+        placaresDiv.classList.add('placares-container');
         placaresDiv.innerHTML = `<h3>Placares dos Jogos</h3>`;
 
         const placarLista = document.createElement('ul');
-        placarLista.classList.add('placares-lista'); // Classe para estilização
+        placarLista.classList.add('placares-lista');
 
         serie.jogos.forEach((jogo, index) => {
             const item = document.createElement('li');
