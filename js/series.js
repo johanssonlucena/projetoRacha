@@ -44,10 +44,10 @@ const series = [
             amarelo: {
                 capitao: "Rondinelly",
                 vitorias: 0,
-                empates: 0,
+                empates: 1,
                 derrotas: 1,
-                golsMarcados: 3,
-                golsSofridos: 6,
+                golsMarcados: 9,
+                golsSofridos: 12,
                 jogadores: ["Rondinelly", "Ranny", "Rodolfo", "Gaspar", "Ademir", "Marquinhos",  "Ezequiel",
                     "Adoniran", "Lindomar", "Zé", "Ricardo", "Kerles", "Amâncio",  "Julian", "Rudy", "Gya",
                     "Diego", "Michelly", "Bruno", "Preto", "Augustinho", "Eder"]
@@ -55,17 +55,18 @@ const series = [
             azul: {
                 capitao: "Gerson",
                 vitorias: 1,
-                empates: 0,
+                empates: 1,
                 derrotas: 0,
-                golsMarcados: 6,
-                golsSofridos: 3,
+                golsMarcados: 12,
+                golsSofridos: 9,
                 jogadores: ["Gerson", "Alysson", "Johansson", "Eron", "Anderson",  "Motta", "Júnior Piscina",
                     "Afonso", "Roquelan", "Rodrigo", "Emerson", "Índio", "Raiff", "Joalisson", "Tau", "Madson",
                     "Jones", "Wellington", "Oliveira", "Robério", "Hítalo", "Júnior Guarani"]
             }
         },
         jogos: [
-            { amarelo: 3, azul: 6 }
+            { amarelo: 3, azul: 6 },
+            { amarelo: 6, azul: 6 }
         ]
     }
 
