@@ -5,8 +5,7 @@ function exibirArtilheiros() {
     listaArtilheiros.innerHTML = '';
 
     const ordenados = [...artilheiros].sort((a, b) => b.gols - a.gols);
-
-    const listaExibir = top10Checkbox.checked ? ordenados.slice(0, 10) : ordenados;
+    const listaExibir = top10Checkbox && top10Checkbox.checked ? ordenados.slice(0, 10) : ordenados;
 
     listaExibir.forEach((artilheiro, index) => {
         const tr = document.createElement('tr');
@@ -25,5 +24,9 @@ function exibirArtilheiros() {
 
 window.onload = () => {
     exibirArtilheiros();
-    document.getElementById('top10Checkbox').addEventListener('change', exibirArtilheiros);
+
+    const checkbox = document.getElementById('top10Checkbox');
+    if (checkbox) {
+        checkbox.addEventListener('change', exibirArtilheiros);
+    }
 };
