@@ -23,5 +23,5 @@ const artilheiros = [
   { "nome": "Oliveira", "gols": 1 },
   { "nome": "Ranny", "gols": 1 },
   { "nome": "Roquelan", "gols": 1 },
-  { "nome": "Tau", "gols": 1 }
+  { "nome": "Tau", "gols": 1 },
 ];
