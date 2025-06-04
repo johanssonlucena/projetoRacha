@@ -1,4 +1,35 @@
 const series = [
+    {
+        numero: 4,
+        vencedor: "nenhum",
+        equipes: {
+            amarelo: {
+                capitao: "Julian",
+                vitorias: 0,
+                empates: 2,
+                derrotas: 1,
+                golsMarcados: 9,
+                golsSofridos: 11,
+                jogadores: ["Ranny", "Julian", "Alysson", "Gaspar", "Junior Guarani", "Ademir", "Adoniran", "Motta", "Welson", "Zé", 
+			    "Preto", "Gya", "Ricardo", "Eder", "Diego", "Hítalo", "Bruno", "Joalisson", "Índio", "Jones", "Emerson"] 
+            },
+            azul: {
+                capitao: "Gerson",
+                vitorias: 1,
+                empates: 2,
+                derrotas: 0,
+                golsMarcados: 11,
+                golsSofridos: 9,
+                jogadores: ["Gerson", "Raiff", "Rodolfo", "Johansson", "Eron", "Anderson", "Afonso", "Lindomar", "Marquinhos", "Roquelan", 
+			    "Rondinelly", "Tau", "Rodrigo", "Kerles", "Madson", "Augustinho", "Wellington", "Junior Piscina", "Amâncio", "Rudy"]
+        }
+        },
+        jogos: [
+            { amarelo: 5, azul: 5 },
+            { amarelo: 2, azul: 2 },
+	    { amarelo: 2, azul: 4 }
+        ]
+    },	
     
     {
         numero: 3,
