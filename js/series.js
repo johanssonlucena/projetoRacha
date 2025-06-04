@@ -26,9 +26,9 @@ const series = [
                     }
             },
         jogos: [
-            { amarelo: 1, azul: 4 - 12/04/2025 },
-            { amarelo: 6, azul: 9 - 26/04/2025 },
-	        { amarelo: 2, azul: 6 - 10/05/2025 }]
+            { amarelo: 1, azul: 4 },
+            { amarelo: 6, azul: 9 },
+	    { amarelo: 2, azul: 6 }]
     },
     
     {
@@ -59,10 +59,10 @@ const series = [
             }
         },
         jogos: [
-            { amarelo: 3, azul: 6 - 15/03/2025},
-            { amarelo: 6, azul: 6 - 22/03/2025},
-            { amarelo: 1, azul: 8 - 29/03/2025},
-            { amarelo: 6, azul: 6 - 05/04/2025}
+            { amarelo: 3, azul: 6 },
+            { amarelo: 6, azul: 6 },
+            { amarelo: 1, azul: 8 },
+            { amarelo: 6, azul: 6 }
         ]
     },
 
@@ -96,11 +96,11 @@ const series = [
             }
         },
         jogos: [
-            { amarelo: 4, azul: 4 - 08/02/2025},
-            { amarelo: 6, azul: 3 - 15/02/2025},
-            { amarelo: 3, azul: 3 - 22/02/2025},
-            { amarelo: 9, azul: 4 - 27/02/2025},
-            { amarelo: 8, azul: 3 - 08/03/2025}
+            { amarelo: 4, azul: 4 },
+            { amarelo: 6, azul: 3 },
+            { amarelo: 3, azul: 3 },
+            { amarelo: 9, azul: 4 },
+            { amarelo: 8, azul: 3 }
         ]
     }
 
