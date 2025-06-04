@@ -1,4 +1,71 @@
 const series = [
+    
+    {
+        numero: 3,
+        vencedor: "Azul",
+        equipes: {
+            amarelo: {
+                capitao: "Rodolfo",
+                vitorias: 0,
+                empates: 0,
+                derrotas: 3,
+                golsMarcados: 9,
+                golsSofridos: 19,
+                jogadores: ["Rodolfo", "Ranny", "Eron", "Gaspar", "Adoniran", "Ademir", "Ezequiel", "Marquinhos", "Zé", "Ricardo", 
+                            "Gya", "Raiff", "Kerles", "Índio", "Diego", "Jones", "Augustinho", "Bruno", "Joalisson", "Robério"]
+                      },
+            azul: {
+                capitao: "Gerson",
+                vitorias: 3,
+                empates: 0,
+                derrotas: 0,
+                golsMarcados: 19,
+                golsSofridos: 9,
+                jogadores: ["Gerson", "Alysson", "Johansson", "Junior Guarani", "Anderson", "Afonso", "Motta", "Lindomar", "Roquelan", 
+                            "Rodrigo", "Tau",  "Julian", "Eder", "Amâncio", "Madson", "Preto", "Rondinelly", "Wellington", "Rudy", "Hítalo"]
+                    }
+            },
+        jogos: [
+            { amarelo: 1, azul: 4 - 12/04/2025 },
+            { amarelo: 6, azul: 9 - 26/04/2025 },
+	        { amarelo: 2, azul: 6 - 10/05/2025 }]
+    },
+    
+    {
+        numero: 2,
+        vencedor: "Azul",
+        equipes: {
+            amarelo: {
+                capitao: "Rondinelly",
+                vitorias: 0,
+                empates: 2,
+                derrotas: 2,
+                golsMarcados: 16,
+                golsSofridos: 26,
+                jogadores: ["Rondinelly", "Ranny", "Rodolfo", "Gaspar", "Ademir", "Marquinhos",  "Ezequiel",
+                    "Adoniran", "Lindomar", "Zé", "Ricardo", "Kerles", "Amâncio",  "Julian", "Rudy", "Gya",
+                    "Diego", "Michelly", "Bruno", "Preto", "Augustinho", "Eder"]
+            },
+            azul: {
+                capitao: "Gerson",
+                vitorias: 2,
+                empates: 2,
+                derrotas: 0,
+                golsMarcados: 26,
+                golsSofridos: 16,
+                jogadores: ["Gerson", "Alysson", "Johansson", "Eron", "Anderson",  "Motta", "Júnior Piscina",
+                    "Afonso", "Roquelan", "Rodrigo", "Emerson", "Índio", "Raiff", "Joalisson", "Tau", "Madson",
+                    "Jones", "Wellington", "Oliveira", "Robério", "Hítalo", "Júnior Guarani"]
+            }
+        },
+        jogos: [
+            { amarelo: 3, azul: 6 - 15/03/2025},
+            { amarelo: 6, azul: 6 - 22/03/2025},
+            { amarelo: 1, azul: 8 - 29/03/2025},
+            { amarelo: 6, azul: 6 - 05/04/2025}
+        ]
+    },
+
     {
         numero: 1,
         vencedor: "Amarelo",
@@ -29,46 +96,11 @@ const series = [
             }
         },
         jogos: [
-            { amarelo: 4, azul: 4 },
-            { amarelo: 6, azul: 3 },
-            { amarelo: 3, azul: 3 },
-            { amarelo: 9, azul: 4 },
-            { amarelo: 8, azul: 3 }
-        ]
-    },
-
-    {
-        numero: 2,
-        vencedor: "Azul",
-        equipes: {
-            amarelo: {
-                capitao: "Rondinelly",
-                vitorias: 0,
-                empates: 2,
-                derrotas: 2,
-                golsMarcados: 16,
-                golsSofridos: 26,
-                jogadores: ["Rondinelly", "Ranny", "Rodolfo", "Gaspar", "Ademir", "Marquinhos",  "Ezequiel",
-                    "Adoniran", "Lindomar", "Zé", "Ricardo", "Kerles", "Amâncio",  "Julian", "Rudy", "Gya",
-                    "Diego", "Michelly", "Bruno", "Preto", "Augustinho", "Eder"]
-            },
-            azul: {
-                capitao: "Gerson",
-                vitorias: 2,
-                empates: 2,
-                derrotas: 0,
-                golsMarcados: 26,
-                golsSofridos: 16,
-                jogadores: ["Gerson", "Alysson", "Johansson", "Eron", "Anderson",  "Motta", "Júnior Piscina",
-                    "Afonso", "Roquelan", "Rodrigo", "Emerson", "Índio", "Raiff", "Joalisson", "Tau", "Madson",
-                    "Jones", "Wellington", "Oliveira", "Robério", "Hítalo", "Júnior Guarani"]
-            }
-        },
-        jogos: [
-            { amarelo: 3, azul: 6 },
-            { amarelo: 6, azul: 6 },
-            { amarelo: 1, azul: 8 },
-            { amarelo: 6, azul: 6 }
+            { amarelo: 4, azul: 4 - 08/02/2025},
+            { amarelo: 6, azul: 3 - 15/02/2025},
+            { amarelo: 3, azul: 3 - 22/02/2025},
+            { amarelo: 9, azul: 4 - 27/02/2025},
+            { amarelo: 8, azul: 3 - 08/03/2025}
         ]
     }
 
