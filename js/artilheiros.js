@@ -1,31 +1,158 @@
 const artilheiros = [
-  { "nome": "Hitalo", "gols": 26 },
-  { "nome": "Augustinho", "gols": 18 },
-  { "nome": "Rondinely", "gols": 18 },
-  { "nome": "Preto", "gols": 15 },
-  { "nome": "Roberio", "gols": 11 },
-  { "nome": "Joalisson", "gols": 10 }, 
-  { "nome": "Raiff", "gols": 10 },
-  { "nome": "Wellington", "gols": 7 },
-  { "nome": "Alysson", "gols": 6 },
-  { "nome": "Bruno Daniel", "gols": 5 },
-  { "nome": "Emerson", "gols": 5 },
-  { "nome": "Jones", "gols": 5 },
-  { "nome": "Michelly", "gols": 4 },
-  { "nome": "Kerles", "gols": 3 },
-  { "nome": "Ricardo", "gols": 3 },
-  { "nome": "Julian", "gols": 2 },
-  { "nome": "Junior Piscina", "gols": 2 },
-  { "nome": "Roquelan", "gols": 2 },
-  { "nome": "Amancio", "gols": 1 },
-  { "nome": "Afonso", "gols": 1 },
-  { "nome": "Indio", "gols": 1 },
-  { "nome": "Junior Guarani", "gols": 1 },
-  { "nome": "Johansson", "gols": 1 },
-  { "nome": "Lindomar", "gols": 1 },
-  { "nome": "Oliveira", "gols": 1 },
-  { "nome": "Ranny", "gols": 1 },
-  { "nome": "Tau", "gols": 1 },
-  { "nome": "Uelson", "gols": 1 },
-  { "nome": "Ze", "gols": 1 },
+  {
+        "nome":"Hitalo",
+        "gols":43
+    },
+    {
+        "nome":"Preto",
+        "gols":25
+    },
+    {
+        "nome":"Rondinelly",
+        "gols":25
+    },
+    {
+        "nome":"Augustinho",
+        "gols":23
+    },
+    {
+        "nome":"Raiff",
+        "gols":21
+    },
+    {
+        "nome":"Jones",
+        "gols":13
+    },
+    {
+        "nome":"Joalisson",
+        "gols":12
+    },
+    {
+        "nome":"Roberio",
+        "gols":11
+    },
+    {
+        "nome":"Emerson",
+        "gols":10
+    },
+    {
+        "nome":"Bruno",
+        "gols":9
+    },
+    {
+        "nome":"Wellington",
+        "gols":7
+    },
+    {
+        "nome":"Alysson",
+        "gols":6
+    },
+    {
+        "nome":"Junior Piscina",
+        "gols":6
+    },
+    {
+        "nome":"Kerles",
+        "gols":5
+    },
+    {
+        "nome":"Michelly",
+        "gols":4
+    },
+    {
+        "nome":"Convidado",
+        "gols":4
+    },
+    {
+        "nome":"Ricardo",
+        "gols":4
+    },
+    {
+        "nome":"Julian",
+        "gols":4
+    },
+    {
+        "nome":"Indio",
+        "gols":3
+    },
+    {
+        "nome":"Ze",
+        "gols":2
+    },
+    {
+        "nome":"Contra",
+        "gols":2
+    },
+    {
+        "nome":"Afonso",
+        "gols":2
+    },
+    {
+        "nome":"Amancio",
+        "gols":2
+    },
+    {
+        "nome":"Gya",
+        "gols":2
+    },
+    {
+        "nome":"Welson",
+        "gols":2
+    },
+    {
+        "nome":"Eder",
+        "gols":2
+    },
+    {
+        "nome":"Roquelan",
+        "gols":2
+    },
+    {
+        "nome":"Gledson",
+        "gols":2
+    },
+    {
+        "nome":"Anderson",
+        "gols":1
+    },
+    {
+        "nome":"Diego",
+        "gols":1
+    },
+    {
+        "nome":"Gerson",
+        "gols":1
+    },
+    {
+        "nome":"Junior Guarani",
+        "gols":1
+    },
+    {
+        "nome":"Johansson",
+        "gols":1
+    },
+    {
+        "nome":"Oliveira",
+        "gols":1
+    },
+    {
+        "nome":"Peka",
+        "gols":1
+    },
+    {
+        "nome":"Ranny",
+        "gols":1
+    },
+    {
+        "nome":"Lindomar",
+        "gols":1
+    },
+    {
+        "nome":"Rodrigo",
+        "gols":1
+    },
+    {
+        "nome":"Tau",
+        "gols":1
+    }
 ];
