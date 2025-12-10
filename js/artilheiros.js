@@ -1,31 +1,31 @@
 const artilheiros = [
-  {
+    {
         "nome":"Hitalo",
-        "gols":43
-    },
-    {
-        "nome":"Preto",
-        "gols":25
-    },
-    {
-        "nome":"Rondinelly",
-        "gols":25
+        "gols":51
     },
     {
         "nome":"Augustinho",
-        "gols":23
+        "gols":33
+    },
+    {
+        "nome":"Preto",
+        "gols":28
+    },
+    {
+        "nome":"Rondinelly",
+        "gols":26
     },
     {
         "nome":"Raiff",
-        "gols":21
+        "gols":22
     },
     {
         "nome":"Jones",
-        "gols":13
+        "gols":16
     },
     {
         "nome":"Joalisson",
-        "gols":12
+        "gols":16
     },
     {
         "nome":"Roberio",
@@ -33,7 +33,7 @@ const artilheiros = [
     },
     {
         "nome":"Emerson",
-        "gols":10
+        "gols":11
     },
     {
         "nome":"Bruno",
@@ -41,6 +41,10 @@ const artilheiros = [
     },
     {
         "nome":"Wellington",
+        "gols":9
+    },
+    {
+        "nome":"Junior Piscina",
         "gols":7
     },
     {
@@ -48,12 +52,12 @@ const artilheiros = [
         "gols":6
     },
     {
-        "nome":"Junior Piscina",
-        "gols":6
-    },
-    {
         "nome":"Kerles",
         "gols":5
+    },
+    {
+        "nome":"Indio",
+        "gols":4
     },
     {
         "nome":"Michelly",
@@ -72,7 +76,7 @@ const artilheiros = [
         "gols":4
     },
     {
-        "nome":"Indio",
+        "nome":"Amancio",
         "gols":3
     },
     {
@@ -88,7 +92,7 @@ const artilheiros = [
         "gols":2
     },
     {
-        "nome":"Amancio",
+        "nome":"Welson",
         "gols":2
     },
     {
@@ -96,15 +100,7 @@ const artilheiros = [
         "gols":2
     },
     {
-        "nome":"Welson",
-        "gols":2
-    },
-    {
         "nome":"Eder",
-        "gols":2
-    },
-    {
-        "nome":"Roquelan",
         "gols":2
     },
     {
@@ -112,11 +108,19 @@ const artilheiros = [
         "gols":2
     },
     {
+        "nome":"Roquelan",
+        "gols":2
+    },
+    {
+        "nome":"Alemao",
+        "gols":1
+    },
+    {
         "nome":"Anderson",
         "gols":1
     },
     {
-        "nome":"Diego",
+        "nome":"Alexandre",
         "gols":1
     },
     {
@@ -124,11 +128,19 @@ const artilheiros = [
         "gols":1
     },
     {
-        "nome":"Junior Guarani",
+        "nome":"Johansson",
         "gols":1
     },
     {
-        "nome":"Johansson",
+        "nome":"Diego",
+        "gols":1
+    },
+    {
+        "nome":"Lindomar",
+        "gols":1
+    },
+    {
+        "nome":"Junior Guarani",
         "gols":1
     },
     {
@@ -140,11 +152,11 @@ const artilheiros = [
         "gols":1
     },
     {
-        "nome":"Ranny",
+        "nome":"Regis",
         "gols":1
     },
     {
-        "nome":"Lindomar",
+        "nome":"Ranny",
         "gols":1
     },
     {
